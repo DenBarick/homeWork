@@ -1,0 +1,124 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.slider,
+.slider__mini {
+  position: relative;
+  padding: 0 50px;
+}
+
+.slider__item {
+  width: 400px;
+  height: 550px;
+}
+.slider__item img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  padding: 5px;
+}
+.trans {
+  transform: scale(1.2);
+}
+
+.slick-slider {
+}
+
+.slick-list {
+  overflow: hidden;
+}
+
+.slick-track {
+  display: flex;
+  align-items: flex-start;
+}
+
+.slick-slide {
+}
+
+.slick-slide .slick-current {
+}
+
+.slick-slide .slick-center {
+}
+
+.slider .slick-arrow {
+  position: absolute;
+  top: 42%;
+  z-index: 10;
+  font-size: 0;
+}
+
+.slider .slick-prev.slick-arrow {
+  left: 0;
+  width: 40px;
+  height: 40px;
+  background: url("left48.png");
+  background-repeat: no-repeat;
+  object-fit: cover;
+  background-size: 100% 100%;
+  border: none;
+}
+
+.slider .slick-next.slick-arrow {
+  right: 0;
+  width: 40px;
+  height: 40px;
+  background: url("right26.png");
+  background-repeat: no-repeat;
+
+  object-fit: cover;
+  background-size: 100% 100%;
+  border: none;
+}
+
+.slick-arrow .slick-disabled {
+}
+
+.slider .slick-arrow:focus {
+  outline: none;
+  transform: scale(1.2);
+}
+
+.slick-dots {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  list-style: none;
+}
+
+.slick-dots button {
+  margin: 10px;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  border: none;
+  outline: none;
+  font-size: 0;
+}
+
+.slick-dots button:focus {
+  background-color: rgba(0, 0, 0, 0.356);
+}
+
+.slider__mini img {
+  width: 150px;
+  height: 85px;
+  object-fit: cover;
+  border-radius: 3px;
+  outline: none;
+  cursor: pointer;
+}
+
